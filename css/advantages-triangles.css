@@ -1,0 +1,74 @@
+.advantages__item-wrapper:first-child .advantages__item::before {
+    content: '';
+    width: 90px;
+    height: 251px;
+    left: 0;
+    bottom: 0;
+    background: url(../img/advantages/triangle-1.svg) center no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: 1;
+}
+
+.advantages__item-wrapper:first-child .advantages__item::after {
+    content: '';
+    width: 258px;
+    height: 88px;
+    right: 0;
+    top: 0;
+    background: url(../img/advantages/triangle-2.svg) center no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.advantages__item-wrapper:nth-child(2) .advantages__item::before {
+    content: '';
+    width: 106px;
+    height: 391px;
+    left: 0;
+    top: 0;
+    background: url(../img/advantages/triangle-3.svg) center no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.advantages__item-wrapper:nth-child(3) .advantages__item::before {
+    content: '';
+    width: 174px;
+    height: 118px;
+    left: 0;
+    top: 0;
+    background: url(../img/advantages/triangle-4.svg) center no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: 1;
+}
+
+.advantages__item-wrapper:nth-child(3) .advantages__item::after {
+    content: '';
+    width: 422px;
+    height: 104px;
+    right: 0;
+    bottom: 0;
+    background: url(../img/advantages/triangle-5.svg) center no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.advantages__item-wrapper:last-child .advantages__item::before {
+    content: '';
+    width: 80px;
+    height: 247px;
+    right: 0;
+    bottom: 0;
+    background: url(../img/advantages/triangle-6.svg) center no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: 1;
+}
