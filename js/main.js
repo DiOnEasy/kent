@@ -9,3 +9,15 @@ const toggleShown = (index) => {
 faqHeader.forEach((item, index) => {
   item.onclick = () => toggleShown(index);
 });
+
+const burger = document.querySelector(".burger");
+const navOpen = document.querySelector(".burger__open");
+const navClose = document.querySelector(".burger__close");
+
+const nav = document.querySelector(".header__nav");
+
+burger.onclick = () => {
+  nav.classList.toggle("header__nav_opened");
+  navOpen.classList.toggle("none");
+  navClose.classList.toggle("none");
+};

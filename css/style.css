@@ -188,7 +188,6 @@ main {
 }
 
 .advantages__item {
-    box-shadow: 30px 0px 60px 0px #DC42A340;
 
     width: 100%;
     position: relative;
@@ -204,6 +203,18 @@ main {
     text-align: center;
     position: relative;
     z-index: 5;
+}
+
+.advantages__item:nth-child(2),
+.advantages__item:nth-child(4) {
+    box-shadow: 21px 0px 62px #EE0261;
+
+}
+
+.advantages__item:nth-child(1),
+.advantages__item:nth-child(3) {
+    box-shadow: -21px 0px 62px #4D0D27;
+
 }
 
 .advantages__header {
@@ -493,6 +504,7 @@ main {
 }
 
 .reviews__item {
+    min-width: 325px;
     width: 26.3vw;
     padding: 32px;
     display: flex;
@@ -721,3 +733,11 @@ main {
 .rotated {
     transform: rotate(180deg);
 }
+
+.burger{
+    display: none;
+}
+.burger img {
+    width: 40px;
+}
+
