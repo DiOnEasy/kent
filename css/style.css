@@ -132,6 +132,7 @@ main {
 
 .laptop {
     position: relative;
+    overflow-x: hidden;
 }
 
 .laptop__img {
