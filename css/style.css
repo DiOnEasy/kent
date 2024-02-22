@@ -15,7 +15,7 @@ body {
 
 .app {
     padding: 40px 0 0;
-    background: url(../img/app-bg.png) top no-repeat;
+    background: url(../img/app-bg.svg) top no-repeat;
     background-size: cover;
 }
 
@@ -734,10 +734,10 @@ main {
     transform: rotate(180deg);
 }
 
-.burger{
+.burger {
     display: none;
 }
+
 .burger img {
     width: 40px;
 }
-
