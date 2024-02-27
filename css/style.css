@@ -443,6 +443,10 @@ main {
     margin-bottom: 17px;
 }
 
+.slots__items_bottom a{
+    width: 50%;
+}
+
 .slots__items a img {
     width: 100%;
 }

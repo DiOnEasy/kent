@@ -1,4 +1,4 @@
-.advantages__item:first-child ::before {
+.advantages__item:first-child::before {
     content: '';
     width: 90px;
     height: 251px;
@@ -10,7 +10,7 @@
     z-index: 1;
 }
 
-.advantages__item:first-child ::after {
+.advantages__item:first-child::after {
     content: '';
     width: 258px;
     height: 88px;
